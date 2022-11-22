@@ -12,7 +12,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: .2s linear;
 }
 html{
@@ -50,7 +50,7 @@ html::-webkit-scrollbar-thumb{
     height: 4rem;
 }
 .header .logoContent .logoName {
-    color: var(--black);
+    color: #E1427C;
     font-size: 2rem;
     font-weight: bolder;
 }
@@ -60,6 +60,7 @@ html::-webkit-scrollbar-thumb{
     margin-right: 3rem;
     color: var(--black);
     font-weight: bold;
+    color: #E1427C;
 }
 .header .navbar a:hover{
     border-bottom: .1rem solid var(--black);
@@ -68,7 +69,8 @@ html::-webkit-scrollbar-thumb{
 .header .icon i{
     font-size: 2rem;
     margin-right: 2rem;
-    color: var(--black);
+    /* color: var(--black); */
+    color: #E1427C;
     cursor: pointer;
 }
 
@@ -121,7 +123,8 @@ html::-webkit-scrollbar-thumb{
     font-weight: bolder;
     margin-bottom: 2rem;
     line-height: 7rem;
-    color: var(--black);
+    /* color: var(--black); */
+    color: #E1427C;
     text-shadow: var(--box-shadow);
 }
 .home .homeContent p{
@@ -134,7 +137,8 @@ html::-webkit-scrollbar-thumb{
 }
 .home .homeContent .home-btn button{
     font-size: 1.8rem;
-    background-color: var(--black);
+    /* background-color: var(--black); */
+    background-color: #E1427C;
     color: var(--white);
     border-radius: .7rem;
     padding: .7rem 2.4rem;
@@ -150,7 +154,7 @@ section{
     text-align: center;
     font-size: 2.6rem;
     margin-bottom: 3rem;
-    color: var(--black);
+    color: #E1427C;
 }
 
 .product .product-row{
@@ -171,8 +175,9 @@ section{
     margin-right: 3rem;
 }
 .product .product-row .img img{
-    height: 100%;
-    width: 100%;
+    height: 275px;
+    border-radius: 75%;
+    width: 275px;
 }
 .product .product-row .img img:hover{
     transform: scale(1.1);
@@ -182,7 +187,7 @@ section{
 }
 .product .product-row .product-content h3{
     font-size: 4rem;
-    color: var(--black);
+    color: #E1427C;
 }
 .product .product-row .product-content p{
     font-size: 1.5rem;
@@ -230,7 +235,8 @@ section{
 }
 .blogs .blogs-row .box .content h3{
     font-size: 3.5rem;
-    color: var(--black);
+    /* color: var(--black); */
+    color: #E1427C;
     text-shadow: var(--box-shadow);
 
 }
@@ -351,7 +357,7 @@ section{
 }
 .footer .box-container .mainBox .content h1{
     font-size: 2rem;
-    color: var(--black);
+    color: #E1427C;
 }
 .footer .box-container .mainBox p{
     font-size: 1.7rem;
@@ -360,7 +366,7 @@ section{
 }
 .footer .box-container .box h3{
     font-size: 2.2rem;
-    color: var(--black);
+    color: #E1427C;
     padding: 1rem 0;
 }
 .footer .box-container .box a{
